@@ -29,6 +29,8 @@ body[data-color-scheme="auto"], body[data-color-scheme="light"] {
     --date-txt: #6e6e73;
 
     --nav-arrow: #1d1d1f;
+    --nav-github-logo: url(/theme-img/github-mark-dark.png);
+    --nav-light-dark-logo: url(/theme-img/dark.png);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -61,6 +63,9 @@ body[data-color-scheme="auto"], body[data-color-scheme="light"] {
         --date-txt: #6e6e73;
 
         --nav-arrow: #e5e5ee;
+
+        --nav-github-logo: url(/theme-img/github-mark-light.png);
+        --nav-light-dark-logo: url(/theme-img/light.png);
     }
 }
 
@@ -93,4 +98,6 @@ body[data-color-scheme="dark"] {
     --date-txt: #6e6e73;
 
     --nav-arrow: #e5e5ee;
+    --nav-github-logo: url(/theme-img/github-mark-light.png);
+    --nav-light-dark-logo: url(/theme-img/light.png);
 }

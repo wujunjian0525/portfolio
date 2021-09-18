@@ -85,34 +85,12 @@ nav .nav-item-icon {
 }
 
 nav .nav-item-github {
-    background-image: url(/theme-img/github-mark-dark.png);
+    background-image: var(--nav-github-logo);
 }
 
-nav .nav-item-patreon {
-    background-image: url(/theme-img/patreon-logo-black.png);
-}
-
-nav .nav-item-codepen {
-    background-image: url(https://blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-Black-Large.png);
-}
-
-nav .nav-item-mastodon {
-    background-image: url(/theme-img/mastodon-logo-black.svg);
-}
-
-@media (prefers-color-scheme: dark) {
-    nav .nav-item-github {
-        background-image: url(/theme-img/github-mark-light.png);
-    }
-    nav .nav-item-patreon {
-        background-image: url(/theme-img/patreon-logo-white.png);
-    }
-    nav .nav-item-codepen {
-        background-image: url(https://blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-White-Large.png);
-    }
-    nav .nav-item-mastodon {
-        background-image: url(/theme-img/mastodon-logo-white.svg);
-    }
+nav .nav-item-light-dark {    
+    background-image: var(--nav-light-dark-logo);
+    cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {
