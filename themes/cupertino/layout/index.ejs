@@ -28,7 +28,14 @@
                         <%- post.excerpt %>
                     </div>
                     <% } %>
-                    <div class="time">
+
+                    <div class="tag-group">
+                        <% for (const i = 0; i < post.tag; i++ ) { console.log(post.tags[i]);%>
+
+                            <span class="tag-item"><% post.tag[i] %></span>
+                        <% } %>
+                    </div>
+                    <!-- <div class="time">
                         <% if (post.date.month() == 0) { %>
                         <span>January</span>
                         <% } %>
@@ -67,7 +74,7 @@
                         <% } %>
                         <span>&nbsp;<%- post.date.date() %>,&nbsp;</span>
                         <span><%- post.date.year() %></span>
-                    </div>
+                    </div> -->
                 </div>
             </a>
         </article>

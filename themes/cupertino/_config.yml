@@ -7,7 +7,7 @@ favicon: /favicon.png
 #manifest: /manifest.json
 
 # show excerpt on post list
-show_excerpt: false
+show_excerpt: True
 
 # light/dark/auto color scheme
 color_scheme: auto
@@ -24,8 +24,6 @@ nav:
     # these items will display as a link
     文章: /archives
     关于: /about
-    # these will be automatically be an icon
-    GitHub: https://github.com/wujunjian0525
 
 # footer items
 footer:
