@@ -16,6 +16,25 @@ body {
     margin-top: 16px;
 }
 
+.meta .tag-group .tag-item {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 12px;
+    font-weight: normal;
+    border-radius: 6px;
+    color: #333;
+}
+
+.meta .tag-group .tag-item:nth-child(3n) {
+    background:#ffe9e1;
+}
+.meta .tag-group .tag-item:nth-child(3n+1) {
+    background:#dbafff;
+}
+.meta .tag-group .tag-item:nth-child(3n+2) {
+    background:#a7ffab;
+}
+
 .content {
     font-size: 19px;
     line-height: 1.4211;
@@ -23,7 +42,7 @@ body {
     letter-spacing: .012em;
 }
 
-.content p, .content h1, .content h2, .content h3, .content h4, .content h5, .content h6, .meta .date, .content figure, .divider, .container, hr, .meta .title, .content blockquote, .content table, .content video, .content ul, .content ol, .about {
+.content p, .content h1, .content h2, .content h3, .content h4, .content h5, .content h6, .meta .date, .content figure, .divider, .container, hr, .meta .title, .content blockquote, .content table, .content video, .content ul, .content ol, .about, .tag-group {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;

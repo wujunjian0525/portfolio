@@ -44,6 +44,12 @@
         <% } %>
 
         <h2 class="title"><%= page.title %></h2>
+
+        <div class="tag-group">
+            <% for (let i = 0; i < page.tags.data.length; i++) { %>
+                <span class="tag-item"><%- page.tags.data[i].name %></span>
+            <% } %>
+        </div>
     </div>
 
     <div class="divider"></div>

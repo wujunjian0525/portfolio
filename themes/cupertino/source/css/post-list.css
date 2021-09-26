@@ -91,6 +91,26 @@ box-shadow: 0 12px 20px 5px rgba(0, 0, 0, 0.05);
     }
 }
 
+.post-list-item .tag-group .tag-item {
+    display: inline-block;
+    padding: 0 12px;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 18px;
+    border-radius: 16px;
+    color: #333;
+}
+
+.post-list-item .tag-group .tag-item:nth-child(3n) {
+    background:#ffe9e1;
+}
+.post-list-item .tag-group .tag-item:nth-child(3n+1) {
+    background:#dbafff;
+}
+.post-list-item .tag-group .tag-item:nth-child(3n+2) {
+    background:#a7ffab;
+}
+
 .post-list-item .time {
     font-size: 14px;
     line-height: 1.28577;

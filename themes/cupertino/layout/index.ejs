@@ -30,9 +30,8 @@
                     <% } %>
 
                     <div class="tag-group">
-                        <% for (const i = 0; i < post.tag; i++ ) { console.log(post.tags[i]);%>
-
-                            <span class="tag-item"><% post.tag[i] %></span>
+                        <% for (let i = 0; i < post.tags.data.length; i++) { %>
+                            <span class="tag-item"><%- post.tags.data[i].name %></span>
                         <% } %>
                     </div>
                     <!-- <div class="time">
